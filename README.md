@@ -10,7 +10,7 @@ Some eager investors are excited about investing in green energy. Can we analyze
 
 Green Energy stocks were wildly successful in 2017! Across the board, stocks soared, with some stocks gaining almost 200%!
 
-![Stock Analysis 2017](/resources/Stock_Analysis_2017.png)
+![Stock Analysis 2017](/Resources/Stock_Analysis_2017.png)
 
 2018, however, was a different story, with many losing 50% of their value over the year.
 
