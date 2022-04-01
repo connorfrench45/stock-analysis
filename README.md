@@ -1,12 +1,12 @@
-#Stock Analysis with VBA
+# Stock Analysis with VBA
 
 Analyzing the performance of Green Energy stocks in 2017 and 2018 using VBA in Excel
 
-##Overview
+## Overview
 
 Some eager investors are excited about investing in green energy. Can we analyze the best performing stocks and show our findings in a way that's quick and easy to understand?
 
-##Results
+## Results
 
 Green Energy stocks were wildly successful in 2017! Across the board, stocks soared, with some stocks gaining almost 200%!
 
@@ -18,11 +18,11 @@ Green Energy stocks were wildly successful in 2017! Across the board, stocks soa
 
 In short, green energy can be a lucrative field to invest in, but it is extremely volatile. Ideally, a diverse portfolio would limit risk, while still including industries important to the investor.
 
-###Code
+### Code
 
 These tables were created by analyzing tons of code, and this was only looking at one industry! Initially, the code I made was clunky, and looking at the time it took to run, it would've been a poor choice to use to expand to a larger data set.
 
-####Original Method
+#### Original Method
 
 Originally, the code was written to run through all the data for each individual ticker. This was done via a nested for loop:
 
@@ -45,7 +45,7 @@ It was effective, but inefficient. Running through thousands of tickers 12 times
 
 That took almost a second to run through the green energy industry! If this was to be expanded to larger data sets, this would be unwieldy. Is it possible to get all the data without running through all the code several times?
 
-####Refactored Code
+#### Refactored Code
 
 To slim down the code, arrays needed to be used.
 
@@ -94,7 +94,7 @@ By running through the data only once, the run time of the code is way faster:
 
 With speedier run times, this code is well positioned for bigger data sets!
 
-##Summary
+## Summary
 
 The refactored code runs significantly faster, however, it took some short cuts to get there. The biggest one is that the code runs on the assumption that the tickers are grouped and in order. If either of those assumptions are wrong, the whole code fails to work.
 
