@@ -14,7 +14,7 @@ Green Energy stocks were wildly successful in 2017! Across the board, stocks soa
 
 2018, however, was a different story, with many losing 50% of their value over the year.
 
-![Stock Analysis 2018](/resources/Stock_Analysis_2018.png)
+![Stock Analysis 2018](/Resources/Stock_Analysis_2018.png)
 
 In short, green energy can be a lucrative field to invest in, but it is extremely volatile. Ideally, a diverse portfolio would limit risk, while still including industries important to the investor.
 
@@ -41,7 +41,7 @@ For i = 0 To 11
 
 It was effective, but inefficient. Running through thousands of tickers 12 times slowed the code down. This was the time it took to run the code through the 2017 data:
 
-![Original Code Time](/resources/Original_Code_Timer.png)
+![Original Code Time](/Resources/Original_Code_Timer.png)
 
 That took almost a second to run through the green energy industry! If this was to be expanded to larger data sets, this would be unwieldy. Is it possible to get all the data without running through all the code several times?
 
@@ -88,9 +88,9 @@ For i = 2 To RowCount
 
 By running through the data only once, the run time of the code is way faster:
 
-![Run time 2017](/resources/VBA_Challenge_2017.png)
+![Run time 2017](/Resources/VBA_Challenge_2017.png)
 
-![Run time 2018](/resources/VBA_Challenge_2018.png)
+![Run time 2018](/Resources/VBA_Challenge_2018.png)
 
 With speedier run times, this code is well positioned for bigger data sets!
 
